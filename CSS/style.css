@@ -1,0 +1,55 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  color:#0000ff;
+  font-weight: bold;
+}
+
+.header_left{
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+}
+
+.header_right{
+  padding: 20px;
+  list-style-type: none;
+}
+
+li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #0000ff;
+}
+
+.main{
+  height: 90%;
+  width: 100%;
+  position: relative;
+  padding: 400px 0 0 0;
+}
+
+.background{
+  position: absolute;
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+  left: 50%;
+  top: 10%;
+  z-index: 10;
+}
+
+.copy{
+  font-size: 50px;
+}
+
+.box{
+  background-color: #0000ff;
+  width: 75%;
+  height: 150px;
+  z-index: 0;
+}
